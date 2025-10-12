@@ -33,9 +33,6 @@ pip install -r requirements.txt
 ```
 ---
 
-### **Part 5: Usage**
-
-```markdown
 ## 🧪 Usage
 
 - **Training**:
@@ -52,9 +49,7 @@ python src/predict.py
 
 ---
 
-### **Part 6: License**
 
-```markdown
 ## 📜 License
 
 This software is released under the **MIT License**.  
