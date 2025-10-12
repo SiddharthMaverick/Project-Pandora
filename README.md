@@ -42,20 +42,21 @@ The goal is **educational and research-oriented**, providing an open-source fram
 
 ## 📦 Repository Structure
 ProjectPandora/
-├─ README.md # Project overview (this file)
-├─ LICENSE # MIT License
-├─ requirements.txt # Python dependencies
+RetrosynFlow/
+├─ README.md
+├─ LICENSE
+├─ requirements.txt
 ├─ data/
-│ └─ toy_smiles.txt # Toy SMILES dataset for experiments
+│   └─ toy_products.txt       # Product SMILES for testing
 ├─ src/
-│ ├─ __init__.py
-│ ├─ dataset.py # ToyReactionDataset + BE conversions
-│ ├─ utils.py # Riemannian metric, vector field, BE helpers
-│ ├─ model.py # RetroFlowModel + TimeEmbedding + Riemannian flow
-│ ├─ train.py # Training loop with Riemannian conditional flow matching
-│ └─ sample.py # Sampling / retrosynthesis inference
-└─ examples/
-└─ run_toy_retro.py # Demo for training + sampling
+│   ├─ __init__.py
+│   ├─ dataset.py             # Dataset loader for product -> reactants
+│   ├─ model.py               # Retrosynthesis model (simplified)
+│   ├─ train.py               # Training script
+│   ├─ predict.py             # Predict reactants from product SMILES
+│   └─ utils.py               # Utilities (SMILES validation, canonicalization)
+└─ outputs/
+    └─ predictions.csv
 
 ---
 
