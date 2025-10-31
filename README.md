@@ -26,7 +26,7 @@ The goal is **educational and research-oriented**, providing an open-source fram
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YourUsername/RetrosynFlowER_UNN.git
+git clone https://github.com/SiddharthMaverick/Project-Pandora.git
 cd RetrosynFlowER_UNN
 pip install -r requirements.txt
 
